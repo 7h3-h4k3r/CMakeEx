@@ -3,6 +3,13 @@ project(Calculator)
 
 add_executable(
     calculator
-    main.cpp
-    math.cpp
+    src/main.cpp
+    src/math.cpp
+    src/geometry.cpp
+)
+
+target_include_directories(
+    calculator
+    PRIVATE
+    include
 )

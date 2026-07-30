@@ -1,5 +1,6 @@
 #include <iostream>
 #include "math.h"
+#include "geometry.h"
 
 int main(){
 
@@ -12,5 +13,9 @@ int main(){
     std::cout << divi(10,20) << '\n';
 
     std::cout << modulus(10,20) << '\n';
+
+    std::cout << areaRectangle(10,30) << '\n';
+
+    std::cout << areaCircle(10) << '\n';
 
 }
