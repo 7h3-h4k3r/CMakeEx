@@ -69,60 +69,60 @@ include CMakeFiles/calculator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/calculator.dir/flags.make
 
-CMakeFiles/calculator.dir/main.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/main.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/main.cpp
-CMakeFiles/calculator.dir/main.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/main.cpp.o -MF CMakeFiles/calculator.dir/main.cpp.o.d -o CMakeFiles/calculator.dir/main.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/main.cpp
+CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/main.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/src/main.cpp
+CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/main.cpp.o -MF CMakeFiles/calculator.dir/src/main.cpp.o.d -o CMakeFiles/calculator.dir/src/main.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/src/main.cpp
 
-CMakeFiles/calculator.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/main.cpp > CMakeFiles/calculator.dir/main.cpp.i
+CMakeFiles/calculator.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/src/main.cpp > CMakeFiles/calculator.dir/src/main.cpp.i
 
-CMakeFiles/calculator.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/main.cpp -o CMakeFiles/calculator.dir/main.cpp.s
+CMakeFiles/calculator.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
 
-CMakeFiles/calculator.dir/math.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/math.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/math.cpp
-CMakeFiles/calculator.dir/math.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/math.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/math.cpp.o -MF CMakeFiles/calculator.dir/math.cpp.o.d -o CMakeFiles/calculator.dir/math.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/math.cpp
+CMakeFiles/calculator.dir/src/math.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/math.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/src/math.cpp
+CMakeFiles/calculator.dir/src/math.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/src/math.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/math.cpp.o -MF CMakeFiles/calculator.dir/src/math.cpp.o.d -o CMakeFiles/calculator.dir/src/math.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/src/math.cpp
 
-CMakeFiles/calculator.dir/math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/math.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/math.cpp > CMakeFiles/calculator.dir/math.cpp.i
+CMakeFiles/calculator.dir/src/math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/math.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/src/math.cpp > CMakeFiles/calculator.dir/src/math.cpp.i
 
-CMakeFiles/calculator.dir/math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/math.cpp -o CMakeFiles/calculator.dir/math.cpp.s
+CMakeFiles/calculator.dir/src/math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/math.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/src/math.cpp -o CMakeFiles/calculator.dir/src/math.cpp.s
 
-CMakeFiles/calculator.dir/geometry.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/geometry.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/geometry.cpp
-CMakeFiles/calculator.dir/geometry.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/geometry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/geometry.cpp.o -MF CMakeFiles/calculator.dir/geometry.cpp.o.d -o CMakeFiles/calculator.dir/geometry.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/geometry.cpp
+CMakeFiles/calculator.dir/src/geometry.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/geometry.cpp.o: /home/oxbin-sh/Downloads/CMakeEx/calculator/src/geometry.cpp
+CMakeFiles/calculator.dir/src/geometry.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/src/geometry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/geometry.cpp.o -MF CMakeFiles/calculator.dir/src/geometry.cpp.o.d -o CMakeFiles/calculator.dir/src/geometry.cpp.o -c /home/oxbin-sh/Downloads/CMakeEx/calculator/src/geometry.cpp
 
-CMakeFiles/calculator.dir/geometry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/geometry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/geometry.cpp > CMakeFiles/calculator.dir/geometry.cpp.i
+CMakeFiles/calculator.dir/src/geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/geometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oxbin-sh/Downloads/CMakeEx/calculator/src/geometry.cpp > CMakeFiles/calculator.dir/src/geometry.cpp.i
 
-CMakeFiles/calculator.dir/geometry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/geometry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/geometry.cpp -o CMakeFiles/calculator.dir/geometry.cpp.s
+CMakeFiles/calculator.dir/src/geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/geometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oxbin-sh/Downloads/CMakeEx/calculator/src/geometry.cpp -o CMakeFiles/calculator.dir/src/geometry.cpp.s
 
 # Object files for target calculator
 calculator_OBJECTS = \
-"CMakeFiles/calculator.dir/main.cpp.o" \
-"CMakeFiles/calculator.dir/math.cpp.o" \
-"CMakeFiles/calculator.dir/geometry.cpp.o"
+"CMakeFiles/calculator.dir/src/main.cpp.o" \
+"CMakeFiles/calculator.dir/src/math.cpp.o" \
+"CMakeFiles/calculator.dir/src/geometry.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
 
-calculator: CMakeFiles/calculator.dir/main.cpp.o
-calculator: CMakeFiles/calculator.dir/math.cpp.o
-calculator: CMakeFiles/calculator.dir/geometry.cpp.o
+calculator: CMakeFiles/calculator.dir/src/main.cpp.o
+calculator: CMakeFiles/calculator.dir/src/math.cpp.o
+calculator: CMakeFiles/calculator.dir/src/geometry.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: CMakeFiles/calculator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calculator"

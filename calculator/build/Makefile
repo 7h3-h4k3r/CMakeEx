@@ -129,77 +129,77 @@ calculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/build
 .PHONY : calculator/fast
 
-geometry.o: geometry.cpp.o
-.PHONY : geometry.o
+src/geometry.o: src/geometry.cpp.o
+.PHONY : src/geometry.o
 
 # target to build an object file
-geometry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/geometry.cpp.o
-.PHONY : geometry.cpp.o
+src/geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/geometry.cpp.o
+.PHONY : src/geometry.cpp.o
 
-geometry.i: geometry.cpp.i
-.PHONY : geometry.i
+src/geometry.i: src/geometry.cpp.i
+.PHONY : src/geometry.i
 
 # target to preprocess a source file
-geometry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/geometry.cpp.i
-.PHONY : geometry.cpp.i
+src/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/geometry.cpp.i
+.PHONY : src/geometry.cpp.i
 
-geometry.s: geometry.cpp.s
-.PHONY : geometry.s
+src/geometry.s: src/geometry.cpp.s
+.PHONY : src/geometry.s
 
 # target to generate assembly for a file
-geometry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/geometry.cpp.s
-.PHONY : geometry.cpp.s
+src/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/geometry.cpp.s
+.PHONY : src/geometry.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-math.o: math.cpp.o
-.PHONY : math.o
+src/math.o: src/math.cpp.o
+.PHONY : src/math.o
 
 # target to build an object file
-math.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/math.cpp.o
-.PHONY : math.cpp.o
+src/math.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/math.cpp.o
+.PHONY : src/math.cpp.o
 
-math.i: math.cpp.i
-.PHONY : math.i
+src/math.i: src/math.cpp.i
+.PHONY : src/math.i
 
 # target to preprocess a source file
-math.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/math.cpp.i
-.PHONY : math.cpp.i
+src/math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/math.cpp.i
+.PHONY : src/math.cpp.i
 
-math.s: math.cpp.s
-.PHONY : math.s
+src/math.s: src/math.cpp.s
+.PHONY : src/math.s
 
 # target to generate assembly for a file
-math.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/math.cpp.s
-.PHONY : math.cpp.s
+src/math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/math.cpp.s
+.PHONY : src/math.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... calculator"
-	@echo "... geometry.o"
-	@echo "... geometry.i"
-	@echo "... geometry.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... math.o"
-	@echo "... math.i"
-	@echo "... math.s"
+	@echo "... src/geometry.o"
+	@echo "... src/geometry.i"
+	@echo "... src/geometry.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/math.o"
+	@echo "... src/math.i"
+	@echo "... src/math.s"
 .PHONY : help
 
 

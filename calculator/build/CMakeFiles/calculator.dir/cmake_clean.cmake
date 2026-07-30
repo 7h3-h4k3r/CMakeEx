@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calculator.dir/geometry.cpp.o"
-  "CMakeFiles/calculator.dir/geometry.cpp.o.d"
-  "CMakeFiles/calculator.dir/main.cpp.o"
-  "CMakeFiles/calculator.dir/main.cpp.o.d"
-  "CMakeFiles/calculator.dir/math.cpp.o"
-  "CMakeFiles/calculator.dir/math.cpp.o.d"
+  "CMakeFiles/calculator.dir/src/geometry.cpp.o"
+  "CMakeFiles/calculator.dir/src/geometry.cpp.o.d"
+  "CMakeFiles/calculator.dir/src/main.cpp.o"
+  "CMakeFiles/calculator.dir/src/main.cpp.o.d"
+  "CMakeFiles/calculator.dir/src/math.cpp.o"
+  "CMakeFiles/calculator.dir/src/math.cpp.o.d"
   "calculator"
   "calculator.pdb"
 )

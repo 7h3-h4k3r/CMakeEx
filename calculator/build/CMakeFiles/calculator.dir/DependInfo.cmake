@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/oxbin-sh/Downloads/CMakeEx/calculator/geometry.cpp" "CMakeFiles/calculator.dir/geometry.cpp.o" "gcc" "CMakeFiles/calculator.dir/geometry.cpp.o.d"
-  "/home/oxbin-sh/Downloads/CMakeEx/calculator/main.cpp" "CMakeFiles/calculator.dir/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/main.cpp.o.d"
-  "/home/oxbin-sh/Downloads/CMakeEx/calculator/math.cpp" "CMakeFiles/calculator.dir/math.cpp.o" "gcc" "CMakeFiles/calculator.dir/math.cpp.o.d"
+  "/home/oxbin-sh/Downloads/CMakeEx/calculator/src/geometry.cpp" "CMakeFiles/calculator.dir/src/geometry.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/geometry.cpp.o.d"
+  "/home/oxbin-sh/Downloads/CMakeEx/calculator/src/main.cpp" "CMakeFiles/calculator.dir/src/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/main.cpp.o.d"
+  "/home/oxbin-sh/Downloads/CMakeEx/calculator/src/math.cpp" "CMakeFiles/calculator.dir/src/math.cpp.o" "gcc" "CMakeFiles/calculator.dir/src/math.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
