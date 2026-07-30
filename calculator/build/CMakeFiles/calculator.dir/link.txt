@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/calculator.dir/main.cpp.o CMakeFiles/calculator.dir/math.cpp.o -o calculator 
+/usr/bin/c++ CMakeFiles/calculator.dir/main.cpp.o CMakeFiles/calculator.dir/math.cpp.o CMakeFiles/calculator.dir/geometry.cpp.o -o calculator 
