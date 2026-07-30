@@ -1,0 +1,3 @@
+/home/oxbin-sh/Downloads/CMakeEx/hello/build/CMakeFiles/hello.dir
+/home/oxbin-sh/Downloads/CMakeEx/hello/build/CMakeFiles/edit_cache.dir
+/home/oxbin-sh/Downloads/CMakeEx/hello/build/CMakeFiles/rebuild_cache.dir

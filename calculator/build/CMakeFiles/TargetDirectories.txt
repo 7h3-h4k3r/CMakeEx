@@ -1,0 +1,3 @@
+/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles/calculator.dir
+/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles/edit_cache.dir
+/home/oxbin-sh/Downloads/CMakeEx/calculator/build/CMakeFiles/rebuild_cache.dir
